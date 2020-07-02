@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+</head>
+
+<body>
+    <!-- 
+    接口文档
+method: get
+url: './data/user.php'
+参数：
+    type = login  登录
+           add    注册 
+    user = 用户名
+    pass = 用户密码
+返回：
+    {err:0,msg:'登录成功'} 
+-->
+    <!-- logo -->
+    <div id="logo_wrap">
+        <div id="logo">
+            <img src="../imgs/注册_02.jpg" alt="">
+        </div>
+    </div>
+    <!-- benner -->
+    <div id="banner_wrap">
+        <div id="banner">
+            <img class="banner_b" src="../imgs/注册_05.jpg" alt="">
+            <div class="denglu">
+                <h3>手机号登录</h3>
+                <form action="">
+                 <div class="changelogin"> <a href="#">使用帐号密码登录</a></div>
+                    <span>
+                        <!-- <em class="iconfont icon-shouji"></em> -->
+                         <input id="user" type="text"
+                            placeholder="请输入帐号"></span>
+                    <div>
+                        <span> <input id="pass" type="text" placeholder="请输入密码">
+                            <button class="huoqu">获取验证码</button>
+                        </span>
+                    </div>
+                    <div class="btn_ld">
+                        <input type="button" id="add" value="注册"></input>
+                        <input type="button" id="btnLogin" value="登录"></input>
+                    </div>
+                    <p class="point_p">注册/登录代表同意<a href="#">隐私政策</a>和 <a href="#">服务条款</a></p>
+                </form>
+
+
+                <footer>
+                    <ul>
+                        <li><a href="#"><img src="../imgs/注册_09.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="../imgs/注册_11.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="../imgs/注册_13.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="../imgs/注册_15.jpg" alt=""></a></li>
+
+                    </ul>
+                </footer>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="footer-wrap">
+            <a href="#">隐私政策 - 考拉海购</a><br>
+            <span>增值电信业务经营许可证：浙B2-20160288 &nbsp; &nbsp;<a href="">自营经营者信息
+                </a>&nbsp;&nbsp;（浙）网械平台备字[2018]第00007号</span><br>
+            <span><a href="#"> 浙公网安备 33010802002216号 </a>阿里巴巴版权所有©2003-2020 <a href="#">互联网药品信息服务资格证书编号（浙）-2017-0027
+                </a> <a href="#">浙ICP备16011229号</a></span>
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
+<script src="../script/jquery-3.2.1.min.js"></script>
+<script src="../script/swiper.min.js"></script>
+
+<script src="../script/iconfont.js"></script>
+
+<script src="../script/ajax.js"></script>
+<script src="../script//cmmon.js"></script>
+<!-- <script type="text/javascript" src="../script/cookieTools.js"></script> -->
+<script>
+    var login = document.querySelector('#btnLogin');
+    var add = document.querySelector('#add');
+    var user = document.querySelector('#user');
+    var pass = document.querySelector('#pass');
+
+    login.onclick = function () {
+        ajax({
+            type: 'get',
+            url: '../php/login.php',
+            data: {
+                type: 'login',
+                user: user.value,
+                pass: pass.value
+            },
+            success: function (data) {
+               
+                
+                var json = JSON.parse(data);
+                if (json.err == 0) {
+                    console.log(json.data);
+                    
+                    console.log(json.msg);
+                   
+                      location.href="http://localhost:3000/html/";
+                  
+                  
+                }
+            }
+        });
+    }
+
+    add.onclick = function () {
+        ajax({
+            type: 'get',
+            url: '../php/login.php',
+            data: {
+                type: 'add',
+                user: user.value,
+                pass: pass.value
+            },
+            success: function (data) {
+                var json = JSON.parse(data);
+                if (json.err == 0) {
+                  console.log(json.msg);
+                    location.href="http://localhost:3000/html/";
+                }
+            }
+        });
+    }
+</script>

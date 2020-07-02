@@ -1,0 +1,139 @@
+@charset "UTF-8";
+.float_left {
+  float: left; }
+
+.float_right {
+  float: right; }
+
+.clear_margin {
+  margin: 0 !important; }
+
+.clear_border {
+  border: 0 !important; }
+
+.clear_bg {
+  background: none !important; }
+
+/* 版心 width   margin:0 auto; */
+#logo,
+#banner,
+#foot-wrap {
+  width: 1101px;
+  margin: auto;
+  background-color: #f4f4f4; }
+
+/* nav */
+#logo_wrap {
+  height: 101px;
+  background-color: #fff !important; }
+
+#logo {
+  height: 101px;
+  background-color: #fff; }
+  #logo img {
+    width: 209px;
+    height: 105px;
+    margin: 5px 75px; }
+
+#banner_wrap {
+  background-color: #f4f4f4; }
+  #banner_wrap .denglu {
+    width: 353px;
+    height: 340px;
+    position: absolute;
+    top: 111px;
+    right: 70px; }
+
+#banner {
+  height: 604px;
+  position: relative; }
+  #banner .banner_b {
+    width: 395px;
+    height: 205px;
+    position: absolute;
+    top: 201px;
+    left: 0; }
+  #banner .denglu h3 {
+    height: 54px;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 54px;
+    text-align: center;
+    color: red;
+    border: 1px solid #dddddd; }
+  #banner .denglu form {
+    border: 1px solid #dddddd;
+    height: 245px;
+    background-color: #fff; }
+    #banner .denglu form .changelogin {
+      height: 34px;
+      line-height: 34px;
+      float: right;
+      margin-right: 20px;
+      font-size: 12px; }
+    #banner .denglu form span {
+      display: inline-block;
+      width: 353px;
+      text-align: center; }
+      #banner .denglu form span em {
+        width: 20px;
+        height: 20px;
+        float: right; }
+      #banner .denglu form span input {
+        width: 270px;
+        height: 36px;
+        margin-bottom: 16px;
+        border-radius: 5px; }
+    #banner .denglu form div {
+      height: 54px;
+      margin-bottom: 30px; }
+      #banner .denglu form div span {
+        text-align: center;
+        border-radius: 5px; }
+      #banner .denglu form div input {
+        width: 177px;
+        height: 36px; }
+      #banner .denglu form div .huoqu {
+        width: 92px;
+        height: 36px;
+        border-radius: 5px; }
+    #banner .denglu form .btn_ld {
+      width: 350px;
+      text-align: center; }
+      #banner .denglu form .btn_ld #add {
+        width: 80px;
+        height: 30px; }
+      #banner .denglu form .btn_ld #btnLogin {
+        width: 80px;
+        height: 30px; }
+  #banner .denglu footer {
+    height: 65px;
+    border: 1px solid #dddddd; }
+  #banner .denglu .point_p {
+    height: 20px;
+    margin-left: 40px;
+    font-size: 14px;
+    line-height: 20px; }
+  #banner footer ul {
+    height: 61px;
+    margin: 8px 40px; }
+    #banner footer ul li {
+      float: left;
+      margin: 5px; }
+
+/* login */
+/* foot */
+/* footer */
+#footer {
+  background-color: #333333; }
+
+.footer-wrap {
+  height: 170px;
+  text-align: center;
+  color: #c2c2c2;
+  font-size: 12px;
+  padding-top: 35px;
+  line-height: 35px; }
+  .footer-wrap a {
+    color: #c2c2c2;
+    font-size: 12px; }

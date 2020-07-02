@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+#mycar,
+#carbox_con {
+    width: 1101px;
+    margin: auto;
+}
+
+#mycar {
+    height: 24px;
+
+    b {
+        float: left;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    select {
+        float: right;
+    }
+
+    i {
+        float: right;
+    }
+}
+
+/* 购物车 */
+#carbox_con {
+    // min-height: 240px;
+    border: 1px solid red;
+}
+
+#carbox_tab {
+    height: 144px;
+    border-spacing: 0px;
+    text-align: center;
+// tr{
+//     width: 1101px;
+    
+//     background-color:pink;
+// }
+    td {
+        border-bottom: 1px solid green;
+    }
+
+    section {
+        dl {
+            margin-top: 20px;
+        }
+
+        dt {
+            width: 80px;
+            height: 80px;
+            float: left;
+            border: 1px solid black;
+
+            img {
+                width: 80px;
+                height: 80px;
+                float: left;
+            }
+        }
+
+        dd {
+            &:nth-of-type(1) {
+                margin-left: 12px;
+                width: 222px;
+                height: 100px;
+             
+                float: left;
+            }
+
+            &:nth-of-type(2) {
+                width: 70px;
+                height: 20px;
+              
+                float: right;
+                font-size: 12px;
+            }
+        }
+    }
+};
+
+ 

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* case-box */
+#case-box {
+  height: 313px;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #e9e9e9; }
+
+#case-box #case-img img {
+  height: 313px;
+  margin-top: 20px; }
+
+/* 热门品牌  */
+#hot-brand {
+  min-height: 428px;
+  background-color: #f6f6f6;
+  position: relative; }
+
+#hot-brand #section-l {
+  width: 220px;
+  height: 354px;
+  float: left; }
+
+#hot-brand #section-l #section-l-ul {
+  width: 220px;
+  height: 220px; }
+
+#hot-brand #section-l #section-l-txt {
+  width: 300px;
+  height: 133px; }
+
+#hot-brand #section-r {
+  height: 300px;
+  width: 880px;
+  float: left; }
+
+#hot-brand #section-r li {
+  width: 220px;
+  height: 178px;
+  float: left;
+  text-align: center; }
+
+#hot-brand #section-r li .img {
+  margin: 10px auto; }
+
+/* 美妆专区 */
+#cosmetics {
+  height: 625px; }
+
+#cosmetics .hot_search li {
+  float: left; }
+
+#cosmetics .bty_l {
+  width: 330px;
+  height: 535px;
+  float: left;
+  position: relative; }
+  #cosmetics .bty_l .swiper-container .swiper-wrapper {
+    width: 330px;
+    height: 535px; }
+
+#cosmetics .bty_m {
+  width: 544px;
+  height: 538px;
+  float: left; }
+
+#cosmetics .bty_r {
+  width: 220px;
+  height: 538px;
+  float: left; }
+  #cosmetics .bty_r h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px; }
+  #cosmetics .bty_r .bty_rlb {
+    width: 220px;
+    height: 400px;
+    padding-top: 10px; }
+    #cosmetics .bty_r .bty_rlb dl {
+      width: 210px;
+      height: 100px;
+      padding: 12px 5px; }
+      #cosmetics .bty_r .bty_rlb dl dt {
+        float: left; }
+        #cosmetics .bty_r .bty_rlb dl dt img {
+          width: 80px;
+          height: 80px; }
+      #cosmetics .bty_r .bty_rlb dl dd {
+        width: 100px;
+        height: 80px;
+        float: left; }
+        #cosmetics .bty_r .bty_rlb dl dd p {
+          font-size: 14px; }
+
+/* < !-- 向上关联热卖品牌 --> */
+#link_hotup {
+  height: 218px;
+  border: 1px solid #eaeaea; }
+
+/* btmlist */
+#btmlist {
+  margin-top: 82px;
+  padding: 52px 0;
+  border: 1px solid #eaeaea; }
+
+#btmlist .btm_ul {
+  height: 40px;
+  margin-top: 50px auto; }
+
+#btmlist .btm_ul li {
+  float: left;
+  width: 180px;
+  margin-left: 60px; }
+
+#btmlist .btmIcon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #d6d6d6;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  float: left;
+  margin-right: 12px; }
+
+#btmlist li .tit {
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  line-height: 24px; }
+
+#btmlist li .desc {
+  font-size: 12px;
+  display: block;
+  line-height: 30px; }
+
+/* link */
+#link_box {
+  padding: 45px 0 90px; }
+
+#link_mess {
+  height: 221px; }
+
+#link_mess ul li {
+  float: left;
+  width: 98px;
+  padding: 0 0 0 11px;
+  height: 140px; }
+
+#link_mess ul li:first-child {
+  width: 208px;
+  padding-right: 70px; }
+
+#link_mess ul li a .logo_img {
+  width: 207px;
+  height: 62px; }
+
+.f-wd100 dl dt em {
+  font-size: 18px;
+  font-weight: 400; }
+
+.f-wd100 dl dd {
+  line-height: 40px; }
+
+.f-wd100 dl dd a {
+  font-size: 14px;
+  color: #333; }
+
+#link_mess ul li .erweima {
+  width: 108px;
+  height: 108px; }
+
+/* footer */
+#footer {
+  background-color: #333333; }
+
+.footer-wrap {
+  height: 150px;
+  text-align: center;
+  color: #c2c2c2;
+  font-size: 12px;
+  padding-top: 28px;
+  line-height: 30px; }
+
+.footer-wrap a {
+  color: #c2c2c2;
+  font-size: 12px; }

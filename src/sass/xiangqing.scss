@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+#shaixuan,
+#jieshao {
+    width: 1101px;
+    margin: auto;
+}
+
+#shaixuan {
+    height: 63px;
+    line-height: 63px;
+    border-bottom: 1px solid #dddddd;
+
+    li {
+        float: left;
+        font-size: 14px;
+        color: #b39999;
+    }
+}
+
+/* 商品介绍 */
+#jieshao {
+    height: 700px;
+    background-color: orange;
+
+    .intd-l {
+        float: left;
+        width: 410px;
+        height: 488px;
+        background-color: red;
+    }
+
+    .intd-r {
+        width: 670px;
+        height: 700px;
+        margin-left: 10px;
+        float: left;
+        background-color: skyblue;
+    }
+}
+
+#shoujia {
+    dl {
+        min-height: 30px;
+        margin-bottom: 10px;
+        background-color: green;
+    }
+}
+
+.top-ban {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: gray;
+
+    a {
+        width: 30px;
+        height: 30px;
+        float: left;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    span {
+        float: right;
+        width: 70px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: red;
+        text-align: center;
+        line-height: 20px;
+    }
+}
+
+.intd-r {
+    header {
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+}
+
+.shoujia {
+    dl {
+        min-height: 42px;
+
+        dt {
+            width: 72px;
+            padding-left: 10px;
+            float: left;
+            font-size: 14px;
+            color: gray;
+        }
+
+        dd {
+            float: left;
+            margin-right: 20px;
+        }
+
+        &:nth-child(1) {
+            height: 50px;
+
+            i {
+                font-size: 20px;
+                color: red;
+            }
+
+            em {
+                color: gray;
+                font-size: 14px;
+            }
+        }
+
+        &:nth-child(2) {
+            span {
+                &:nth-child(1) {
+                    width: 50px;
+                    height: 20px;
+                    border-radius: 2px;
+                    background-color: yellow;
+                }
+            }
+        }
+
+        &:nth-child(5) {
+            height: 60px;
+            line-height: 60px;
+
+            dd {
+                &:nth-of-type(1) {
+                    width: 56px;
+                    height: 56px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(6) {
+            height: 60px;
+            line-height: 60px;
+
+            a {
+                font-size: 12px;
+                color: gray;
+            }
+        }
+    }
+}
+
+#buy {
+    button {
+        width: 160px;
+        height: 48px;
+        border: 2px solid red;
+        margin-right: 20px;
+        background-color: red;
+
+        &:nth-of-type(1) {
+            background-color: #ffeced;
+        }
+    }
+
+    span {
+        font-size: 14px;
+        width: 160px;
+        height: 48px;
+        line-height: 48px;
+    }
+}

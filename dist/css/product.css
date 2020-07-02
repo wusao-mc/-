@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body {
+  background-color: #f8f8f8; }
+
+#pr-sec,
+#cla,
+#arrange,
+#pr_pubu {
+  width: 1101px;
+  margin: auto; }
+
+#pr-sec {
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: gray; }
+  #pr-sec a {
+    color: gray; }
+  #pr-sec input {
+    color: gray; }
+
+/* 筛选 */
+#cla {
+  min-height: 150px;
+  border: 1px solid gray; }
+  #cla dl {
+    width: 1101px;
+    min-height: 36px;
+    line-height: 36px;
+    border-bottom: 1px dashed gray;
+    background-color: #fff; }
+    #cla dl:last-child {
+      border: none; }
+    #cla dl dt {
+      width: 110px;
+      min-height: 36px;
+      background-color: #f8f8f8;
+      float: left;
+      padding-left: 15px; }
+    #cla dl dd {
+      width: 975px;
+      min-height: 36px;
+      float: left; }
+      #cla dl dd a {
+        margin: 20px; }
+
+/* #arrange */
+#arrange {
+  margin-top: 12px;
+  height: 35px;
+  background-color: #f8f8f8;
+  line-height: 35px; }
+  #arrange ul li {
+    float: left;
+    margin-right: 12px; }
+  #arrange .arr_first li {
+    font-size: 12px;
+    width: 60px;
+    line-height: 33px;
+    float: left;
+    text-align: center;
+    border: 1px solid gray; }
+  #arrange li:last-child {
+    float: right; }
+
+/* 瀑布 */
+#pr_pubu {
+  margin-top: 20px;
+  min-height: 780px;
+  background-color: #fff;
+  border: 1px solid skyblue; }
+  #pr_pubu dl {
+    width: 264px;
+    height: 385px;
+    float: left;
+    margin: 5px; }
+    #pr_pubu dl dt img {
+      width: 264px;
+      height: 255px; }
+    #pr_pubu dl dd p {
+      float: left; }
+    #pr_pubu dl dd .addcar {
+      float: right;
+      width: 70px;
+      height: 20px;
+      background-color: red;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 5px;
+      text-align: center; }
+    #pr_pubu dl dd:nth-of-type(1) {
+      margin-left: 12px;
+      color: red; }
+      #pr_pubu dl dd:nth-of-type(1) b {
+        font-size: 18px;
+        font-weight: bolder; }
+      #pr_pubu dl dd:nth-of-type(1) em {
+        font-size: 12px;
+        text-decoration: line-through;
+        color: gray; }
+    #pr_pubu dl dd:nth-of-type(2) {
+      margin-left: 12px;
+      height: 30px;
+      line-height: 30px;
+      overflow: hidden; }
+    #pr_pubu dl dd:nth-of-type(3) {
+      height: 20px;
+      line-height: 20px;
+      margin-left: 12px; }
+      #pr_pubu dl dd:nth-of-type(3) span {
+        border-radius: 5px;
+        margin: 5px; }
+    #pr_pubu dl dd:nth-of-type(4) {
+      margin-left: 12px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 12px; }
+      #pr_pubu dl dd:nth-of-type(4) i {
+        float: right;
+        margin-right: 12px; }
+    #pr_pubu dl dd:nth-of-type(5) {
+      height: 20px;
+      margin-left: 12px; }

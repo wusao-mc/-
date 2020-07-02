@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.clear_margin {
+    margin: 0 !important;
+}
+
+.clear_border {
+    border: 0 !important;
+}
+
+.clear_bg {
+    background: none !important;
+}
+
+/* 版心 width   margin:0 auto; */
+#logo,
+#banner,
+#foot-wrap {
+    width: 1101px;
+    margin: auto;
+    background-color: #f4f4f4;
+}
+
+/* nav */
+#logo_wrap{
+   
+    height: 101px;
+     background-color: #fff !important;
+}
+#logo {
+    height: 101px;
+ background-color: #fff;
+    img {
+        width: 209px;
+        height: 105px;
+        margin: 5px 75px;
+    }
+}
+
+#banner_wrap {
+    background-color: #f4f4f4;
+
+   .denglu{
+        width: 353px;
+        height: 340px;
+        position: absolute;
+        top: 111px;
+        right: 70px;
+    }
+}
+
+#banner {
+    height: 604px;
+    position: relative;
+
+    .banner_b {
+        width: 395px;
+        height: 205px;
+        position: absolute;
+        top: 201px;
+        left: 0;
+    }
+
+    .denglu{
+        h3 {
+            height: 54px;
+            font-size: 18px;
+            font-weight: bolder;
+            line-height: 54px;
+            text-align: center;
+            color: red;
+            border: 1px solid #dddddd;
+        }
+
+        form {
+            border: 1px solid #dddddd;
+            height: 245px;
+            background-color: #fff;
+
+            
+
+         
+                .changelogin {
+                    height: 34px;
+                    line-height: 34px;
+                    float: right;
+                    margin-right: 20px;
+                    font-size: 12px;
+                }
+
+                
+            
+
+            span {
+                display: inline-block;
+                width: 353px;
+                text-align: center;
+                em {
+                    width: 20px;
+                    height: 20px;
+                    float: right;
+                }
+
+                input {
+                    width: 270px;
+                    height: 36px;
+                    margin-bottom: 16px;
+                    border-radius: 5px;
+                }
+            }
+
+            div {
+                height: 54px;
+                margin-bottom: 30px;
+
+                span {
+                    text-align: center;
+                    border-radius: 5px;
+                }
+
+                input {
+                    width: 177px;
+                    height: 36px;
+                }
+
+                .huoqu {
+                    width: 92px;
+                    height: 36px;
+                    border-radius: 5px;
+                }
+            }
+
+            // .denglu {
+            //     width: 272px;
+            //     height: 36px;
+            //     margin-left: 40px;
+            //     text-align: center;
+            //     background-color: red;
+            //     font-size: 14px;
+            //     color: #fff;
+            //     font-weight: bolder;
+            //     border-radius: 5px;
+            //     padding-bottom: 10px;
+            // }
+          .btn_ld{
+              width: 350px;
+            
+            
+             
+              text-align: center;
+                #add {
+                    width: 80px;
+                    height: 30px;
+                  
+                   
+                }
+
+                #btnLogin {
+                    width: 80px;
+                    height: 30px;
+                   
+                
+                }
+          }
+        }
+
+        footer {
+            height: 65px;
+            border: 1px solid #dddddd;
+        }
+
+        .point_p {
+            height: 20px;
+            margin-left: 40px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+
+    footer {
+        ul {
+            height: 61px;
+            margin: 8px 40px;
+
+            li {
+                float: left;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+/* login */
+/* foot */
+/* footer */
+#footer {
+    background-color: #333333;
+}
+
+.footer-wrap {
+    height: 170px;
+    text-align: center;
+    color: #c2c2c2;
+    font-size: 12px;
+    padding-top: 35px;
+    line-height: 35px;
+
+    a {
+        color: #c2c2c2;
+        font-size: 12px;
+    }
+}

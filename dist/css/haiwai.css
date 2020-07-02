@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* banner */
+#pubu {
+  width: 1101px;
+  min-height: 3000px;
+  margin: auto; }
+  #pubu #pubu-wrap {
+    width: 1003px;
+    min-height: 900px;
+    margin: 0 50px; }
+    #pubu #pubu-wrap .pubu_top {
+      width: 1003px;
+      height: 202px;
+      background-color: green; }
+
+#banner {
+  position: relative;
+  height: 400px; }
+  #banner .banner-nav {
+    display: none; }
+
+#banner-wrap img {
+  position: absolute;
+  height: 400px;
+  left: 50%;
+  margin-left: -920px;
+  z-index: 999; }
+
+/* 瀑布流 */
+/* top */
+#pubu-wrap .pubu_top li {
+  border-right: 2px solid #f1f1f1;
+  float: left; }
+
+/* box  */
+#pububox .pubu_suv header {
+  margin-top: 5px;
+  width: 1003px;
+  height: 60px;
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #554471; }
+
+#pububox .pubu_suv section dl {
+  border: 1px solid black;
+  float: left;
+  width: 192px;
+  height: 278px;
+  margin: 3px; }
+
+.pubu_suv section dl dt {
+  height: 193px;
+  width: 192px; }
+  .pubu_suv section dl dt img {
+    width: 100%;
+    height: 100%; }
+
+.pubu_suv section dl dd:nth-of-type(1) {
+  width: 192px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bolder;
+  overflow: hidden; }
+
+.pubu_suv section dl dd:nth-of-type(2) {
+  width: 192px;
+  height: 26px;
+  font-size: 12px;
+  overflow: hidden; }
+
+.pubu_suv section dl dd:nth-of-type(3) {
+  color: red;
+  height: 32px;
+  width: 192px; }
+  .pubu_suv section dl dd:nth-of-type(3) i {
+    float: left; }
+  .pubu_suv section dl dd:nth-of-type(3) strong {
+    font-size: 20px;
+    font-weight: 800;
+    float: left; }
+  .pubu_suv section dl dd:nth-of-type(3) em {
+    text-decoration: line-through;
+    color: gray;
+    float: left; }
+
+.pubu_suv section button {
+  width: 80px;
+  height: 25px;
+  background-color: red;
+  float: right;
+  font-size: 12px; }
+
+/* common */
